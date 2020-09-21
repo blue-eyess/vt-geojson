@@ -1,10 +1,10 @@
 var zlib = require('zlib')
 var Pbf = require('pbf')
 var through = require('through2')
-var cover = require('tile-cover')
-var envelope = require('turf-envelope')
+var cover = require('@mapbox/tile-cover')
+var envelope = require('@turf/envelope')
 var VectorTile = require('vector-tile').VectorTile
-var bboxPoly = require('turf-bbox-polygon')
+var bboxPoly = require('@turf/bbox-polygon')
 
 // see https://github.com/substack/insert-module-globals/pull/40
 var setImmediate = require('timers').setImmediate
