@@ -3,7 +3,7 @@ var Pbf = require('pbf')
 var through = require('through2')
 var cover = require('@mapbox/tile-cover')
 var envelope = require('@turf/envelope')
-var VectorTile = require('vector-tile').VectorTile
+var VectorTile = require('@mapbox/vector-tile').VectorTile
 var bboxPoly = require('@turf/bbox-polygon')
 
 // see https://github.com/substack/insert-module-globals/pull/40
